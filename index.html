@@ -356,15 +356,15 @@ footer{background:var(--bg);border-top:1px solid var(--border2);padding:2rem 5%;
       <div class="project-card fade-up">
         <div class="project-num">01 / FinTech · Credit Risk</div>
         <div class="project-title">Credit Risk &amp; Expected Loss Analytics Platform</div>
-        <div class="project-desc">End-to-end PD modelling framework on ~890,000 historical LendingClub loans answering: <em>"Should we approve this loan and what is our Expected Loss?"</em> — with a full 5-page Streamlit portfolio dashboard.</div>
+        <div class="project-desc">End-to-end PD modelling framework on ~890,000 historical LendingClub loans. Applied <strong>SHAP TreeExplainer</strong> to surface top risk drivers (<code>int_rate</code>, <code>term</code>, <code>dti</code>) and built a 5-page Streamlit dashboard for portfolio monitoring, risk segmentation, model evaluation, and individual loan assessment with live Expected Loss analytics (<em>EL = PD × LGD × EAD</em>). Decision threshold selected on validation set; imputer fitted only on training data — no evaluation leakage.</div>
         <div class="project-metrics">
           <div class="metric">ROC-AUC <span>0.789</span></div>
           <div class="metric">PR-AUC <span>0.577</span></div>
           <div class="metric">Loans <span>890k</span></div>
-          <div class="metric">EL Engine <span>PD×LGD×EAD</span></div>
+          <div class="metric">EL Analytics <span>PD×LGD×EAD</span></div>
         </div>
         <div class="project-tags">
-          <span class="p-tag">Python</span><span class="p-tag">XGBoost</span><span class="p-tag">SHAP</span><span class="p-tag">Streamlit</span><span class="p-tag">Logistic Regression</span><span class="p-tag">Random Forest</span><span class="p-tag">FinTech</span>
+          <span class="p-tag">Python</span><span class="p-tag">XGBoost</span><span class="p-tag">SHAP</span><span class="p-tag">Streamlit</span><span class="p-tag">Logistic Regression</span><span class="p-tag">Random Forest</span><span class="p-tag">Sklearn Pipeline</span><span class="p-tag">FinTech</span>
         </div>
         <div class="project-links">
           <a href="https://github.com/Monukarthik/credit-risk-analytics" target="_blank" class="proj-link">
